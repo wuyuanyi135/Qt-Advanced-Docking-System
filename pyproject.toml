@@ -1,6 +1,6 @@
 # Specify the build system.
 [build-system]
-requires = ["sip >=6.0.2, <6.3", "PyQt-builder >=1.6, <2", "PyQt5==5.15.4", "PyQt5-sip<13,>=12.8"]
+requires = ["sip==6.7.7", "PyQt-builder==1.11.0", "PyQt5==5.15.9", "PyQt5-sip==12.11.1"]
 build-backend = "sipbuild.api"
 
 # Specify the PEP 566 metadata for the project.
@@ -11,7 +11,7 @@ summary = "Python bindings for Qt Advanced Docking System"
 home-page = "https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System/"
 license = "LGPL v2.1"
 description-file = "README.md"
-requires-dist = "PyQt5 (>=5.15.4)"
+requires-dist = "PyQt5 (>=5.15.9)"
 description-content-type = "text/markdown"
 
 [tool.sip.project]
